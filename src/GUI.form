@@ -32,9 +32,11 @@
               <foreground color="-16777216"/>
             </properties>
           </component>
-          <component id="76dbc" class="javax.swing.JButton" binding="startStopButton">
+          <component id="76dbc" class="javax.swing.JButton" binding="startPauseButton">
             <constraints>
-              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="100" height="50"/>
+              </grid>
             </constraints>
             <properties>
               <font name="Consolas" size="18" style="1"/>
@@ -42,14 +44,16 @@
               <text value="START"/>
             </properties>
           </component>
-          <component id="cf9aa" class="javax.swing.JButton" binding="pauseButton">
+          <component id="cf9aa" class="javax.swing.JButton" binding="stopButton">
             <constraints>
-              <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="100" height="50"/>
+              </grid>
             </constraints>
             <properties>
               <font name="Consolas" size="18" style="1"/>
               <horizontalTextPosition value="0"/>
-              <text value="PAUSE"/>
+              <text value="RESET"/>
             </properties>
           </component>
           <hspacer id="aa6cb">
